@@ -62,7 +62,7 @@ body {
 	color: var(--main-color);
 }
 .main-link:focus {
-	color: var(--accent-text-color);
+	color: var(--accent-color);
 }
 
 .auth-link {
