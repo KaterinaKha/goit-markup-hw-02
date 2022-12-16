@@ -8,12 +8,12 @@
 	--light: #f4f4fd;
 	--btn-text: #ffffff;
 	--btn-color: #f4f4fd;
+	--btn-second-color: #404bbf;
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	
+
 	color: var(--main-color);
 	background-color: var(--accent-color);
 }
@@ -55,7 +55,7 @@ body {
 }
 
 .main-link {
-	/* font-size: 16px; */
+	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	text-decoration: none;
@@ -68,7 +68,6 @@ body {
 
 .auth-link {
 	font-weight: 400;
-	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	text-decoration: none;
@@ -105,15 +104,14 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-	background-color: var(--primary-color);
-	color: var(--btn-text);
+	background-color: var(--btn-second-color);
 }
 
 /* section  */
 .section.section-bg {
 	background-color: var(--light);
 }
-.section-item{
+.section-item {
 	background-color: var(--accent-color);
 }
 .section-title {
@@ -138,6 +136,7 @@ body {
 .filter-btn {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
+	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
 
@@ -150,8 +149,8 @@ body {
 
 .filter-btn:hover,
 .filter-btn:focus {
-	background-color: var(--primary-color);
 	color: var(--btn-text);
+	background-color: var(--primary-color);
 }
 
 .footer {
